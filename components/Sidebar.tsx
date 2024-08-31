@@ -33,7 +33,10 @@ const Sidebar = () => {
             <Link
               href={item.route}
               key={item.label}
-              className={cn("sidebar-link", { "bg-bank-gradient": isActive })}
+              className={cn("sidebar-link", {
+                "bg-purpleHeart-200 bg-opacity-30 border-[1px] border-purpleHeart-900 border-opacity-20 ":
+                  isActive,
+              })}
             >
               <div className="relative size-6">
                 <Image
@@ -45,7 +48,11 @@ const Sidebar = () => {
                   })}
                 />
               </div>
-              <p className={cn("sidebar-label", { "!text-white": isActive })}>
+              <p
+                className={cn("sidebar-label", {
+                  "!text-purpleHeart-900 ": isActive,
+                })}
+              >
                 {item.label}
               </p>
             </Link>
