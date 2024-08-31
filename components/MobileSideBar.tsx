@@ -19,15 +19,7 @@ const MobileSideBar = () => {
     <section className="w-full max-w-[264px]">
       <Sheet>
         <div className="flex items-center gap-[16px]">
-          <SheetTrigger>
-            <Image
-              src="/icons/hero-icon.svg"
-              width={20}
-              height={20}
-              alt="menu"
-              className="cursor-pointer"
-            />
-          </SheetTrigger>
+          <SheetTrigger></SheetTrigger>
         </div>
 
         <SheetContent side="left" className="border-none bg-white">
