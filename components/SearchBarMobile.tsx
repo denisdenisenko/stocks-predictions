@@ -13,6 +13,5 @@ const SearchBarMobile = () => {
       />
     </div>
   );
-  ///
 };
 export default SearchBarMobile;
