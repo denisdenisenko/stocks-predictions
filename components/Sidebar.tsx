@@ -34,7 +34,8 @@ const Sidebar = () => {
               href={item.route}
               key={item.label}
               className={cn("sidebar-link", {
-                "bg-purpleHeart-200 bg-opacity-60 ": isActive,
+                "bg-purpleHeart-200 bg-opacity-30 border-[1px] border-purpleHeart-900 border-opacity-20 ":
+                  isActive,
               })}
             >
               <div className="relative size-6">
@@ -43,7 +44,8 @@ const Sidebar = () => {
                   alt={item.label}
                   fill
                   className={cn({
-                    "brightness-[3] invert-0 ": isActive,
+                    "brightness-[3] invert-0 saturate-200 hue-rotate-270":
+                      isActive,
                   })}
                 />
               </div>
