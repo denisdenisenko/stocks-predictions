@@ -390,7 +390,6 @@
       @apply ring-offset-gray-200; /* or any other color you prefer */
     }
   }
-
   @layer utilities {
     .ring-ring {
       @apply ring-blue-500; /* Replace with the desired ring color */
