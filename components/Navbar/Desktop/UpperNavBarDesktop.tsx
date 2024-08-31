@@ -1,7 +1,7 @@
 import React from "react";
-import SearchBarDesktop from "./SearchBarDesktop";
-import BalanceCompnent from "./BalanceCompnent";
-import IconsNavBar from "./IconsNavBar";
+import SearchBarDesktop from "./Searchbar/SearchBarDesktop";
+import BalanceCompnent from "./Balance/BalanceCompnent";
+import IconsNavBar from "./ButtonIcons/IconsNavBar";
 
 const UpperNavBarDesktop = () => {
   return (

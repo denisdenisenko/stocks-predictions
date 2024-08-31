@@ -1,5 +1,5 @@
 import React from "react";
-import SearchBarMobile from "./SearchBarMobile";
+import SearchBarMobile from "./SearchBar/SearchBarMobile";
 import Image from "next/image";
 
 const UpperNavBarMobile = () => {

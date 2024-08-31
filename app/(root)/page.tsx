@@ -1,4 +1,3 @@
-import UpperNavBar from "@/components/UpperNavBarMobile";
 import React from "react";
 
 const Home = () => {
