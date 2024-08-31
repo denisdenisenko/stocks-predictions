@@ -32,7 +32,6 @@ const UserInfoDesktop = () => {
                 src="/icons/Arrow-Down-Navbar.svg"
                 width={40}
                 height={40}
-                className="cursor-pointer"
                 alt="arrow-down"
               />
             </DropdownMenuTrigger>
