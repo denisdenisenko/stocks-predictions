@@ -1,4 +1,3 @@
-import MobileSideBar from "@/components/MobileSideBar";
 import UpperNavBarDesktop from "@/components/Navbar/Desktop/UpperNavBarDesktop";
 import UpperNavBarMobile from "@/components/Navbar/Mobile/UpperNavBarMobile";
 import Sidebar from "@/components/Sidebar";

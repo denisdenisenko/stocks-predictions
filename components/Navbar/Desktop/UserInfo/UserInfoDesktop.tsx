@@ -10,6 +10,8 @@ import {
 } from "@/components/ui/dropdown-menu";
 import Image from "next/image";
 const UserInfoDesktop = () => {
+  const name: string = "John Travolta";
+  const email: string = "johntravolta@nana.co.il";
   return (
     <div className="flex flex-row gap-5 items-center">
       <Avatar>
@@ -18,11 +20,9 @@ const UserInfoDesktop = () => {
       </Avatar>
       <div className="flex flex-row gap-8 items-center">
         <div className="flex flex-col">
-          <p className="text-[18px] font-montserrat font-medium">
-            John Travolta
-          </p>
+          <p className="text-[18px] font-montserrat font-medium">{name}</p>
           <p className="tetx-[14px] font-montserrat font-normal text-textGray-100">
-            johntravolta@nana.co.il
+            {email}
           </p>
         </div>
         <div>
