@@ -18,9 +18,6 @@ export default function RootLayout({
         <div className="root-layout">
           {/* <Image src="/icons/logo.svg" width={30} height={30} alt="logo" /> */}
           <UpperNavBarMobile />
-          <div>
-            <MobileSideBar />
-          </div>
         </div>
         {children}
       </div>
