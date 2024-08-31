@@ -17,7 +17,7 @@ export default function RootLayout({
           <UpperNavBarDesktop />
         </div>
         <div className="root-layout">
-          <Image src="/icons/logo.svg" width={30} height={30} alt="logo" />
+          {/* <Image src="/icons/logo.svg" width={30} height={30} alt="logo" /> */}
           <UpperNavBarMobile />
           <div>
             <MobileNav />
