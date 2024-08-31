@@ -377,7 +377,7 @@
   }
 
   .sidebar-label {
-    @apply text-16 font-semibold text-black-2 max-xl:hidden;
+    @apply font-poppins font-normal text-[16px] text-black-2 max-xl:hidden;
   }
 
   @layer utilities {
