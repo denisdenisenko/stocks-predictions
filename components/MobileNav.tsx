@@ -18,14 +18,7 @@ const MobileNav = () => {
   return (
     <section className="w-full max-w-[264px]">
       <Sheet>
-        <div className="flex items-center space-x-2">
-          <Image
-            src="/icons/Reminder-Icon.svg"
-            width={20}
-            height={20}
-            alt="reminder"
-            className="cursor-pointer"
-          />
+        <div className="flex items-center gap-[16px]">
           <SheetTrigger>
             <Image
               src="/icons/hero-icon.svg"
