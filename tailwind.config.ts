@@ -70,10 +70,14 @@ const config = {
           900: "#101828",
         },
         funBlue: {
+          600: "#0F5AAB",
           950: "#0D2444",
         },
         purpleHeart: {
           50: "#F3F1FF",
+        },
+        transparentBlue: {
+          200: "#133967",
         },
       },
       backgroundImage: {
