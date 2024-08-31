@@ -5,7 +5,7 @@ import BalanceCompnent from "./BalanceCompnent";
 
 const UpperNavBarDesktop = () => {
   return (
-    <section className=" w-[1200px] h-[78px] flex flex-row justify-between items-center">
+    <section className=" w-[1200px] h-[78px] flex flex-row gap-24 p-[0px_20px] items-center">
       <p className="font-poppins text-[26px] font-semibold text-funBlue-950">
         Dashboard
       </p>
