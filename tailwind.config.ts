@@ -1,3 +1,4 @@
+import { Montserrat } from "next/font/google";
 import type { Config } from "tailwindcss";
 
 const config = {
@@ -63,10 +64,16 @@ const config = {
           25: "#FCFCFD",
           200: "#EAECF0",
           300: "#D0D5DD",
-          500: "#667085",
+          500: "#6B7280",
           600: "#475467",
           700: "#344054",
           900: "#101828",
+        },
+        funBlue: {
+          950: "#0D2444",
+        },
+        purpleHeart: {
+          50: "#F3F1FF",
         },
       },
       backgroundImage: {
@@ -86,6 +93,8 @@ const config = {
       fontFamily: {
         inter: "var(--font-inter)",
         "ibm-plex-serif": "var(--font-ibm-plex-serif)",
+        poppins: "var(--font-poppins)",
+        montserrat: "var(--font-montserrat)",
       },
       keyframes: {
         "accordion-down": {
