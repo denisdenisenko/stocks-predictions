@@ -1,7 +1,7 @@
 import React from "react";
-import { Poppins } from "next/font/google";
 import SearchBarDesktop from "./SearchBarDesktop";
 import BalanceCompnent from "./BalanceCompnent";
+import IconsNavBar from "./IconsNavBar";
 
 const UpperNavBarDesktop = () => {
   return (
@@ -11,7 +11,7 @@ const UpperNavBarDesktop = () => {
       </p>
       <SearchBarDesktop />
       <BalanceCompnent />
-      <div>Icons</div>
+      <IconsNavBar />
       <div>User</div>
     </section>
   );
