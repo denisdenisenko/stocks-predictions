@@ -18,34 +18,32 @@ const UserInfoDesktop = () => {
         <AvatarImage src="https://github.com/shadcn.png" />
         <AvatarFallback>JT</AvatarFallback>
       </Avatar>
-      <div className="flex flex-row gap-8 items-center">
+      <div className="flex flex-row gap-12 items-center">
         <div className="flex flex-col">
           <p className="text-[18px] font-montserrat font-medium">{name}</p>
           <p className="tetx-[14px] font-montserrat font-normal text-textGray-100">
             {email}
           </p>
         </div>
-        <div>
-          <DropdownMenu>
-            <DropdownMenuTrigger>
-              <Image
-                src="/icons/Arrow-Down-Navbar.svg"
-                width={40}
-                height={40}
-                className="cursor-pointer"
-                alt="arrow-down"
-              />
-            </DropdownMenuTrigger>
-            <DropdownMenuContent>
-              <DropdownMenuLabel>My Account</DropdownMenuLabel>
-              <DropdownMenuSeparator />
-              <DropdownMenuItem>Profile</DropdownMenuItem>
-              <DropdownMenuItem>Billing</DropdownMenuItem>
-              <DropdownMenuItem>Team</DropdownMenuItem>
-              <DropdownMenuItem>Subscription</DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
-        </div>
+        <DropdownMenu>
+          <DropdownMenuTrigger asChild>
+            <Image
+              src="/icons/Arrow-Down-Navbar.svg"
+              width={45}
+              height={45}
+              className="cursor-pointer"
+              alt="arrow-down"
+            />
+          </DropdownMenuTrigger>
+          <DropdownMenuContent>
+            <DropdownMenuLabel>My Account</DropdownMenuLabel>
+            <DropdownMenuSeparator />
+            <DropdownMenuItem>Profile</DropdownMenuItem>
+            <DropdownMenuItem>Billing</DropdownMenuItem>
+            <DropdownMenuItem>Team</DropdownMenuItem>
+            <DropdownMenuItem>Subscription</DropdownMenuItem>
+          </DropdownMenuContent>
+        </DropdownMenu>
       </div>
     </div>
   );
