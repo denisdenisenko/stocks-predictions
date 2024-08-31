@@ -379,4 +379,27 @@
   .sidebar-label {
     @apply text-16 font-semibold text-black-2 max-xl:hidden;
   }
+
+  @layer utilities {
+    .border-input {
+      @apply border-none; /* This will disable the border */
+    }
+  }
+  @layer utilities {
+    .ring-offset-background {
+      @apply ring-offset-gray-200; /* or any other color you prefer */
+    }
+  }
+
+  @layer utilities {
+    .ring-ring {
+      @apply ring-blue-500; /* Replace with the desired ring color */
+    }
+  }
+  .searchbar-desktop {
+    @apply flex h-10 w-full placeholder:text-[16px] placeholder:font-montserrat rounded-md border border-input  bg-purpleHeart-50 px-3 py-2 text-[16px] font-montserrat text-funBlue-950  ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:font-medium placeholder:text-gray-500 focus-visible:outline-none focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .searchbar-mobile {
+    @apply flex h-10 w-full placeholder:text-[16px] placeholder:font-montserrat rounded-md border border-input  bg-purpleHeart-50 px-3 py-2 text-[16px] font-montserrat text-funBlue-950  ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:font-medium placeholder:text-gray-500 focus-visible:outline-none focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50;
+  }
 }
