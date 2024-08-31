@@ -1,7 +1,12 @@
 import React from "react";
+import SearchBarMobile from "./SearchBarMobile";
 
 const UpperNavBarMobile = () => {
-  return <div>UpperNavBarMobile</div>;
+  return (
+    <div>
+      <SearchBarMobile />
+    </div>
+  );
 };
 
 export default UpperNavBarMobile;
