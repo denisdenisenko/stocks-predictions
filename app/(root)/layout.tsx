@@ -13,7 +13,7 @@ export default function RootLayout({
     <main className="flex h-screen w-full font-inter">
       <Sidebar />
       <div className="flex size-full flex-col">
-        <div className="hidden md:block sm:p-8">
+        <div className="hidden md:block">
           <UpperNavBarDesktop />
         </div>
         <div className="root-layout">
