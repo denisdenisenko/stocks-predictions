@@ -3,17 +3,17 @@ import Icon from "./Icon";
 
 const IconsNavBar = () => {
   return (
-    <div className="flex flex-row gap-5 items-center">
+    <div className="flex flex-row gap-4 items-center">
       <Icon
-        source="/icons/SunOutline.png"
-        width={18}
-        height={18}
+        source="/icons/Moon.svg"
+        width={30}
+        height={30}
         alt="Light/Dark mode"
       />
       <Icon
-        source="/icons/Notifications.png"
-        width={22.19}
-        height={22.5}
+        source="/icons/bell-alert.svg"
+        width={30}
+        height={30}
         alt="Notification"
       />
     </div>

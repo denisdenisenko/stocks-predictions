@@ -18,11 +18,11 @@ const Sidebar = () => {
         items-center gap-2"
         >
           <Image
-            src="/icons/logo.svg"
-            width={34}
-            height={34}
+            src="/icons/Fingerprint.svg"
+            width={50}
+            height={50}
             alt="Stockify logo"
-            className="size-[24px] max-xl:size-14"
+            className="size-[40px] max-xl:size-14"
           />
           <h1 className="sidebar-logo">Stockify</h1>
         </Link>
