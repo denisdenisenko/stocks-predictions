@@ -2,6 +2,7 @@ import React from "react";
 import SearchBarDesktop from "./Searchbar/SearchBarDesktop";
 import BalanceCompnent from "./Balance/BalanceCompnent";
 import IconsNavBar from "./ButtonIcons/IconsNavBar";
+import UserInfoDesktop from "./UserInfo/UserInfoDesktop";
 
 const UpperNavBarDesktop = () => {
   return (
@@ -12,7 +13,7 @@ const UpperNavBarDesktop = () => {
       <SearchBarDesktop />
       <BalanceCompnent />
       <IconsNavBar />
-      <div>User</div>
+      <UserInfoDesktop />
     </section>
   );
 };
