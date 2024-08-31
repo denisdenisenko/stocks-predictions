@@ -16,7 +16,7 @@ const MobileSideBar = () => {
   const pathName = usePathname();
 
   return (
-    <section className="w-full max-w-[264px]">
+    <section className="">
       <Sheet>
         <div className="flex items-center gap-[16px]">
           <SheetTrigger>
