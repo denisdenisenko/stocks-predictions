@@ -22,8 +22,8 @@ const MobileSideBar = () => {
           <SheetTrigger>
             <Image
               src="/icons/hero-icon.svg"
-              width={20}
-              height={20}
+              width={28}
+              height={28}
               alt="menu"
               className="cursor-pointer"
             />

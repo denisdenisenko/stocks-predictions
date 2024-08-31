@@ -5,13 +5,13 @@ import MobileSideBar from "@/components/MobileSideBar";
 
 const UpperNavBarMobile = () => {
   return (
-    <div className="flex flex-row gap-[16px] items-center">
+    <div className="flex w-full flex-row gap-[16px] justify-evenly  items-center">
       <MobileSideBar />
       <SearchBarMobile />
       <Image
         src="/icons/Reminder-Icon.svg"
-        width={20}
-        height={20}
+        width={28}
+        height={28}
         alt="reminder"
         className="cursor-pointer"
       />
