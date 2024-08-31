@@ -44,8 +44,7 @@ const Sidebar = () => {
                   alt={item.label}
                   fill
                   className={cn({
-                    "brightness-[3] invert-0 saturate-200 hue-rotate-270":
-                      isActive,
+                    "brightness-[3] invert-0": isActive,
                   })}
                 />
               </div>
