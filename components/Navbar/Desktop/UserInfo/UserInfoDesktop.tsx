@@ -14,7 +14,7 @@ const UserInfoDesktop = () => {
     <div className="flex flex-row gap-5 items-center">
       <Avatar>
         <AvatarImage src="https://github.com/shadcn.png" />
-        <AvatarFallback>CN</AvatarFallback>
+        <AvatarFallback>JT</AvatarFallback>
       </Avatar>
       <div className="flex flex-row gap-8 items-center">
         <div className="flex flex-col">
