@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const SearchBarMobile = () => {
   return (
-    <div className="flex items-center h-[40px] w-[161px] max-w-sm space-x-2 rounded-lg border gap-[10px] border-purpleHeart-50 bg-purpleHeart-50 dark:bg-gray-900 px-3.5 py-2">
-      <Image src="/icons/SearchIcon.svg" width={30} height={30} alt="search" />
+    <div className="flex items-center h-[40px] w-[161px] rounded-[10px] border border-purpleHeart-50 bg-purpleHeart-50 px-[10px] py-[6px] gap-[8px]">
+      <Image src="/icons/SearchIcon.svg" width={20} height={20} alt="search" />
       <Input
         type="search"
         placeholder="Search"

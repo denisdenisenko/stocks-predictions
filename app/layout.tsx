@@ -18,8 +18,8 @@ const poppins = Poppins({
 
 const montserrat = Montserrat({
   subsets: ["latin"],
-  weight: ["500"], // Adjust weights as needed
-  variable: "--font-montserrat", // Set a CSS variable for the font
+  weight: ["500"],
+  variable: "--font-montserrat",
 });
 
 export const metadata: Metadata = {
