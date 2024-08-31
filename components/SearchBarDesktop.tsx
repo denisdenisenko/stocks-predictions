@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const SearchBarDesktop = () => {
   return (
-    <div className="flex items-center w-[313px] h-[42px] max-w-sm space-x-2 rounded-lg border border-purpleHeart-50 bg-purpleHeart-50 dark:bg-gray-900 px-3.5 py-2">
+    <div className="flex items-center w-[313px] h-[42px] max-w-sm space-x-2 rounded-lg border border-purpleHeart-50 bg-purpleHeart-50 dark:bg-gray-900 p-[9px_16px_9px_16px] gap-2">
       <Image src="/icons/SearchIcon.svg" width={30} height={30} alt="search" />
       <Input
         type="search"
