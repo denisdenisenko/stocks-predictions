@@ -82,6 +82,9 @@ const config = {
         borderGray: {
           100: "#E6E6E6",
         },
+        textGray: {
+          100: "#797979",
+        },
       },
       backgroundImage: {
         "bank-gradient": "linear-gradient(90deg, #0179FE 0%, #4893FF 100%)",
