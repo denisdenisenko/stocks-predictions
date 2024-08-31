@@ -1,8 +1,7 @@
+import MobileSideBar from "@/components/MobileSideBar";
 import UpperNavBarDesktop from "@/components/Navbar/Desktop/UpperNavBarDesktop";
-import MobileNav from "@/components/Navbar/Mobile/MobileNav";
 import UpperNavBarMobile from "@/components/Navbar/Mobile/UpperNavBarMobile";
 import Sidebar from "@/components/Sidebar";
-import Image from "next/image";
 
 export default function RootLayout({
   children,
@@ -20,7 +19,7 @@ export default function RootLayout({
           {/* <Image src="/icons/logo.svg" width={30} height={30} alt="logo" /> */}
           <UpperNavBarMobile />
           <div>
-            <MobileNav />
+            <MobileSideBar />
           </div>
         </div>
         {children}

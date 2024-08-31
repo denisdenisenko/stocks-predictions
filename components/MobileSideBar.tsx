@@ -12,7 +12,7 @@ import { sidebarLinks } from "@/constants";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 
-const MobileNav = () => {
+const MobileSideBar = () => {
   const pathName = usePathname();
 
   return (
@@ -90,4 +90,4 @@ const MobileNav = () => {
   );
 };
 
-export default MobileNav;
+export default MobileSideBar;
