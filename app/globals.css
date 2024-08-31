@@ -377,7 +377,7 @@
   }
 
   .sidebar-label {
-    @apply font-poppins font-normal text-[16px] text-funBlue-950 max-xl:hidden;
+    @apply font-poppins font-normal text-[16px] text-funBlue-950 text-opacity-50 max-xl:hidden;
   }
 
   @layer utilities {
