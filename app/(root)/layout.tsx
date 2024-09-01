@@ -11,7 +11,7 @@ export default function RootLayout({
     <main className="flex h-screen w-full font-inter">
       <Sidebar />
       <div className="flex size-full flex-col">
-        <div className="hidden md:block border-b border-gray-200 p-[10px_0px_10px_0px]">
+        <div className=" w-full hidden md:block border-b border-gray-200 p-[10px_0px_10px_0px]">
           <UpperNavBarDesktop />
         </div>
         <div className="root-layout">

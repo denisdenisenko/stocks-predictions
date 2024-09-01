@@ -18,9 +18,9 @@ const UserInfoDesktop = () => {
         <AvatarImage src="https://github.com/shadcn.png" />
         <AvatarFallback>JT</AvatarFallback>
       </Avatar>
-      <div className="flex flex-row gap-12 items-center">
+      <div className="flex flex-row gap-4 items-center">
         <div className="flex flex-col">
-          <p className="text-[18px] font-montserrat font-medium">{name}</p>
+          <p className="text-[18px] font-montserrat font-medium">Hey, {name}</p>
           <p className="tetx-[14px] font-montserrat font-normal text-textGray-100">
             {email}
           </p>
@@ -29,8 +29,8 @@ const UserInfoDesktop = () => {
           <DropdownMenuTrigger asChild>
             <Image
               src="/icons/Arrow-Down-Navbar.svg"
-              width={45}
-              height={45}
+              width={30}
+              height={30}
               className="cursor-pointer"
               alt="arrow-down"
             />

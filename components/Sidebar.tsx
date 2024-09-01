@@ -53,7 +53,7 @@ const Sidebar = () => {
               </div>
               <p
                 className={cn("sidebar-label", {
-                  "!text-purpleHeart-900 ": isActive,
+                  "!text-purpleHeart-900 !font-normal ": isActive,
                 })}
               >
                 {item.label}
