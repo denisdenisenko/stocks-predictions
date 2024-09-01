@@ -379,6 +379,9 @@
   .sidebar-label {
     @apply font-poppins font-normal text-[16px] text-funBlue-950 text-opacity-50 max-xl:hidden;
   }
+  .sidebar-mobile-label {
+    @apply font-poppins font-normal text-[16px] text-funBlue-950 text-opacity-50;
+  }
 
   @layer utilities {
     .border-input {
