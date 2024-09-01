@@ -89,9 +89,10 @@ const MobileSideBar = () => {
 
                       <p
                         className={cn(
-                          ".sidebar-mobile-label text-[16px] font-semibold",
+                          "sidebar-mobile-label text-[16px] font-semibold",
                           {
                             "!text-purpleHeart-900 !font-normal": isActive,
+                            "text-opacity-50": !isActive,
                           }
                         )}
                       >
