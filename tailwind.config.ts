@@ -74,7 +74,8 @@ const config = {
           950: "#0D2444",
         },
         purpleHeart: {
-          50: "#F7F6FF",
+          50: "#F3F1FF",
+          60: "#F7F6FF",
           200: "#D9CEFF",
           900: "#4B05AD",
         },
