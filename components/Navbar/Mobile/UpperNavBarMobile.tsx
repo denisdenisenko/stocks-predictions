@@ -2,6 +2,7 @@ import React from "react";
 import SearchBarMobile from "./SearchBar/SearchBarMobile";
 import Image from "next/image";
 import MobileSideBar from "@/components/MobileSideBar";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const UpperNavBarMobile = () => {
   return (
@@ -15,13 +16,10 @@ const UpperNavBarMobile = () => {
         alt="reminder"
         className="cursor-pointer"
       />
-      <Image
-        src="/icons/Frame-Icon.svg"
-        width={40}
-        height={40}
-        alt="frame"
-        className="cursor-pointer"
-      />
+      <Avatar>
+        <AvatarImage src="https://github.com/shadcn.png" />
+        <AvatarFallback>JT</AvatarFallback>
+      </Avatar>
     </div>
   );
 };
