@@ -10,9 +10,16 @@ const UpperNavBarMobile = () => {
       <SearchBarMobile />
       <Image
         src="/icons/Reminder-Icon.svg"
-        width={28}
-        height={28}
+        width={27}
+        height={27}
         alt="reminder"
+        className="cursor-pointer"
+      />
+      <Image
+        src="/icons/Frame-Icon.svg"
+        width={40}
+        height={40}
+        alt="frame"
         className="cursor-pointer"
       />
     </div>
