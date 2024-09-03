@@ -6,11 +6,23 @@ interface IconProps {
   width: number;
   height: number;
   alt: string;
+  divW: string;
+  divH: string;
 }
 
-const Icon: React.FC<IconProps> = ({ source, width, height, alt }) => {
+const Icon: React.FC<IconProps> = ({
+  source,
+  width,
+  height,
+  alt,
+  divW,
+  divH,
+}) => {
   return (
-    <div className="w-[50px] h-[50px] rounded-full bg-purpleHeart-50 flex items-center justify-center">
+    <div
+      style={{ width: divW, height: divH }}
+      className="rounded-full bg-purpleHeart-50 flex items-center justify-center"
+    >
       <Image
         src={source}
         width={width}
