@@ -16,10 +16,19 @@ const UpperNavBarMobile = () => {
         alt="reminder"
         className="cursor-pointer"
       />
-      <Avatar>
-        <AvatarImage src="https://github.com/shadcn.png" />
-        <AvatarFallback>JT</AvatarFallback>
-      </Avatar>
+      <div className="relative">
+        <Avatar className="relative">
+          <AvatarImage src="https://github.com/shadcn.png" />
+          <AvatarFallback>JT</AvatarFallback>
+        </Avatar>
+        <div className="absolute inset-0">
+          <img
+            src="/icons/Ellipse_avatar.svg"
+            alt="ellipse"
+            className="w-full h-full object-cover"
+          />
+        </div>
+      </div>
     </div>
   );
 };
