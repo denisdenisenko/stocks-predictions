@@ -1,7 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import CustomBuyButton from "../../Desktop/PredictionScore/CustomBuyButton";
+import AnimatedCounter from "@/components/Navbar/Desktop/Balance/AnimatedCounter";
 const PredictionScore = () => {
+  const predictedAmount = 34;
   return (
     <div className="sm:w-[328px] md:w[400px] h-[150px] flex flex-col gap-[10px] bg-prediction-gradient border-lightPink-50 absolute top-[75px] rounded-[10px] border border-solid left-[16px] p-[12px_16px] ">
       <div className="w-[368px] gap-4 h-[35px] flex flex-row items-center relative">
@@ -25,9 +27,10 @@ const PredictionScore = () => {
       </div>
       <div className="w-[350px] h-[39px] flex flex-row content-center items-cente">
         <div className="w-[350px] h-[39px]">
-          <p className="font-poppins font-semibold text-[26px] text-red-50 leading-[39px]">
-            0%
-          </p>
+          <div className="flex flex-row font-poppins font-semibold text-[26px] text-red-50 leading-[39px]">
+            <AnimatedCounter amount={predictedAmount} />
+            <p>%</p>
+          </div>
         </div>
         <CustomBuyButton buttonH="33px" buttonW="75px" />
       </div>
