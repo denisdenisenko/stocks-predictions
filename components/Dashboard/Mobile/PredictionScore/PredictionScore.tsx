@@ -5,8 +5,8 @@ import AnimatedCounter from "@/components/Navbar/Desktop/Balance/AnimatedCounter
 const PredictionScore = () => {
   const predictedAmount = 34;
   return (
-    <div className="sm:w-[328px] md:w[400px] h-[150px] flex flex-col gap-[10px] bg-prediction-gradient border-lightPink-50 absolute top-[75px] rounded-[10px] border border-solid left-[16px] p-[12px_16px] ">
-      <div className="w-[368px] gap-4 h-[35px] flex flex-row items-center relative">
+    <div className="sm:w-full m-[0px_10px_0px_10px] h-[150px] flex flex-col gap-[10px] bg-prediction-gradient border-lightPink-50 rounded-[10px] border border-solid p-[12px_16px] ">
+      <div className="w-[296px] gap-4 h-[35px] flex flex-row items-center">
         <h2 className="font-poppins text-[18px] font-semibold text-funBlue-950 text-left">
           Prediction Score
         </h2>
@@ -25,7 +25,7 @@ const PredictionScore = () => {
           Prediction score for the search term “SEDG”
         </p>
       </div>
-      <div className="w-[350px] h-[39px] flex flex-row content-center items-cente">
+      <div className="w-full h-[39px] flex flex-row content-center justify-between">
         <div className="w-[350px] h-[39px]">
           <div className="flex flex-row font-poppins font-semibold text-[26px] text-red-50 leading-[39px]">
             <AnimatedCounter amount={predictedAmount} />
