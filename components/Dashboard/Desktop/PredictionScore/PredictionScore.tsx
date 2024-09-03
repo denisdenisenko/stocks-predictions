@@ -18,14 +18,14 @@ const PredictionScore = () => {
             source={"/icons/question-mark-circle.svg"}
             width={20}
             height={20}
-            alt={"questionMard"}
+            alt={"questionMark"}
             divW="35px"
             divH="35px"
           />
         </div>
-
         <p className="font-poppins font-normal text-[14px] text-textPredictionGray-100">
-          Prediction score for the searched stock: "{searchedStock}"
+          Prediction score for the searched stock: &quot;{searchedStock}
+          &quot;
         </p>
       </div>
       <div className="flex flex-row items-center font-poppins font-semibold text-[40px] text-textPredictionRed-100">
