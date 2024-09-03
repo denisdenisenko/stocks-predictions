@@ -5,7 +5,7 @@ import React from "react";
 const MyDashboard = () => {
   return (
     <div>
-      <div className="hidden md:block p-[6px_0px_10px_0px]">
+      <div className="hidden md:block">
         <DesktopDashboard />
       </div>
       <div className="md:hidden">

@@ -9,7 +9,11 @@ const BalanceCompnent = () => {
       <p className="text-[16px] font-poppins font-medium">Balance</p>
       <div className="w-[165px] h-[45px] rounded-[6px] bg-transparentBlue-200 bg-opacity-5 items-center p-[6px_15px] flex flex-row">
         <div className="text-[22px] font-poppins font-normal text-funBlue-600">
-          <AnimatedCounter amount={totalCurrentBalance} />
+          <AnimatedCounter
+            amount={totalCurrentBalance}
+            prefix={"$ "}
+            decimals={2}
+          />
         </div>
       </div>
     </div>
