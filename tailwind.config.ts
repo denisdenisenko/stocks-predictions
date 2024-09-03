@@ -60,8 +60,12 @@ const config = {
           1: "#00214F",
           2: "#344054",
         },
+        red:{
+          50: "#F81010" 
+        },
         gray: {
           25: "#FCFCFD",
+          30:"#9C9C9C",
           200: "#EAECF0",
           300: "#D0D5DD",
           500: "#6B7280",
@@ -78,6 +82,11 @@ const config = {
           60: "#F7F6FF",
           200: "#D9CEFF",
           900: "#4B05AD",
+        },
+        lightPink:{
+          30:"#fEF4F5",
+          50:"#fDECEE"
+          
         },
         transparentBlue: {
           200: "#133967",
