@@ -14,10 +14,19 @@ const UserInfoDesktop = () => {
   const email: string = "johntravolta@nana.co.il";
   return (
     <div className="flex flex-row gap-5 items-center">
-      <Avatar>
-        <AvatarImage src="https://github.com/shadcn.png" />
-        <AvatarFallback>JT</AvatarFallback>
-      </Avatar>
+      <div className="relative">
+        <Avatar className="relative">
+          <AvatarImage src="https://github.com/shadcn.png" />
+          <AvatarFallback>JT</AvatarFallback>
+        </Avatar>
+        <div className="absolute inset-0">
+          <img
+            src="/icons/Ellipse_avatar.svg"
+            alt="ellipse"
+            className="w-full h-full object-cover"
+          />
+        </div>
+      </div>
       <div className="flex flex-row gap-4 items-center">
         <div className="flex flex-col">
           <p className="text-[18px] font-montserrat font-medium">Hey, {name}</p>
