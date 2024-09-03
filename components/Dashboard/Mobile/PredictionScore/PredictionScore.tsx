@@ -1,8 +1,9 @@
 import React from "react";
 import Image from "next/image";
+import CustomBuyButton from "../../Desktop/PredictionScore/CustomBuyButton";
 const PredictionScore = () => {
   return (
-    <div className="sm:w-[328px] md:w[400px] h-[150px] flex flex-col gap-[10px] bg-black-1 border-lightPink-50 absolute top-[75px] rounded-[10px] border border-solid left-[16px] p-[12px_16px] ">
+    <div className="sm:w-[328px] md:w[400px] h-[150px] flex flex-col gap-[10px] bg-prediction-gradient border-lightPink-50 absolute top-[75px] rounded-[10px] border border-solid left-[16px] p-[12px_16px] ">
       <div className="w-[368px] gap-4 h-[35px] flex flex-row items-center relative">
         <h2 className="font-poppins text-[18px] font-semibold text-funBlue-950 text-left">
           Prediction Score
@@ -28,15 +29,7 @@ const PredictionScore = () => {
             0%
           </p>
         </div>
-        <div className="w-[75px] h-[33px] flex justify-center">
-          <Image
-            src="/icons/Buy-Icon.png"
-            width={75}
-            height={33}
-            alt="question"
-            className="cursor-pointer"
-          />
-        </div>
+        <CustomBuyButton buttonH="33px" buttonW="75px" />
       </div>
     </div>
   );
