@@ -29,12 +29,11 @@ const PredictionScore = () => {
         </p>
       </div>
       <div className="flex flex-row items-center font-poppins font-semibold text-[40px] text-textPredictionRed-100">
-        <p>
-          <AnimatedCounter amount={predictedScore} />
-        </p>
+        <AnimatedCounter amount={predictedScore} />
+
         <p> %</p>
       </div>
-      <CustomBuyButton />
+      <CustomBuyButton buttonW="81px" buttonH="37px" />
     </div>
   );
 };
