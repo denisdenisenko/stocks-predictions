@@ -10,6 +10,8 @@ const IconsNavBar = () => {
           width={30}
           height={30}
           alt="Light/Dark mode"
+          divW="50px"
+          divH="50px"
         />
       </div>
       <div>
@@ -18,6 +20,8 @@ const IconsNavBar = () => {
           width={30}
           height={30}
           alt="Notification"
+          divW="50px"
+          divH="50px"
         />
       </div>
     </div>

@@ -78,6 +78,7 @@ const config = {
           60: "#F7F6FF",
           200: "#D9CEFF",
           900: "#4B05AD",
+          950: "#5A03D5",
         },
         transparentBlue: {
           200: "#133967",
@@ -88,12 +89,20 @@ const config = {
         textGray: {
           100: "#797979",
         },
+        textPredictionGray: {
+          100: "#9C9C9C",
+        },
+        textPredictionRed: {
+          100: "#F81010",
+        },
       },
       backgroundImage: {
         "bank-gradient": "linear-gradient(90deg, #0179FE 0%, #4893FF 100%)",
         "gradient-mesh": "url('/icons/gradient-mesh.svg')",
         "bank-green-gradient":
           "linear-gradient(90deg, #01797A 0%, #489399 100%)",
+        "prediction-gradient":
+          "linear-gradient(rgba(255, 222, 222, 0.3) , rgba(254, 224, 224, 0.3))",
       },
       boxShadow: {
         form: "0px 1px 2px 0px rgba(16, 24, 40, 0.05)",
