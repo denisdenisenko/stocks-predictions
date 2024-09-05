@@ -7,12 +7,12 @@ const MobileDashboard = () => {
     <div className="sm:w-full m-[10px_10px_0px_10px] h-[150px] flex flex-col gap-[10px]">
       <PredictionScore />
       <ProsConsComponent
-        header={""}
+        header={"Pro's"}
         tooltip={"This is pros"}
         backgroundColor={"bg-pros-gradient"}
       />
       <ProsConsComponent
-        header={""}
+        header={"Con's"}
         tooltip={"This is cons"}
         backgroundColor={"bg-cons-gradient"}
       />
