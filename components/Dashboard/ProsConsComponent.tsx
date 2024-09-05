@@ -15,11 +15,11 @@ const ProsConsComponent: React.FC<ProsConsProps> = ({
 }) => {
   return (
     <div
-      className={`w-[690px] h-[392px] border-[2px] rounded-[20px] border-gray-60 ${backgroundColor}`}
+      className={`w-full max-w-[690px] h-auto sm:h-[392px] border-[2px] rounded-[20px] border-gray-60 ${backgroundColor}`}
     >
-      <div className="flex flex-col p-7">
-        <div className="flex flex-row justify-between">
-          <p className="font-poppins font-semibold text-[24px] text-funBlue-950 ">
+      <div className="flex flex-col p-4 sm:p-7">
+        <div className="flex flex-row justify-between items-center">
+          <p className="font-poppins font-semibold text-[20px] sm:text-[24px] text-funBlue-950">
             {header}
           </p>
           <Icon
