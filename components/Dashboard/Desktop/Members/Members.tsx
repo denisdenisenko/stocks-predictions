@@ -7,19 +7,28 @@ const Members = () => {
     <div className="flex flex-row items-center ">
       <div className="flex flex-row items-center">
         <Avatar className="relative border-[3px] border-white w-[50px] h-[50px]">
-          <AvatarImage src="https://github.com/shadcn.png" />
-          <AvatarFallback>JT</AvatarFallback>
+          <AvatarImage
+            src="/images/1.jpg"
+            className="w-full h-full object-cover"
+          />
+          <AvatarFallback>MR</AvatarFallback>
         </Avatar>
         <Avatar className="relative border-[3px] border-white right-3 w-[50px] h-[50px]">
-          <AvatarImage src="https://github.com/shadcn.png" />
-          <AvatarFallback>JT</AvatarFallback>
+          <AvatarImage
+            src="/images/2.jpg"
+            className="w-full h-full object-cover"
+          />
+          <AvatarFallback>HY</AvatarFallback>
         </Avatar>
         <Avatar className="relative border-[3px] border-white right-6 w-[50px] h-[50px]">
-          <AvatarImage src="https://github.com/shadcn.png" />
-          <AvatarFallback>JT</AvatarFallback>
+          <AvatarImage
+            src="/images/3.jpg"
+            className="w-full h-full object-cover"
+          />
+          <AvatarFallback>JB</AvatarFallback>
         </Avatar>
         <Avatar className="relative border-[3px] border-white right-9 bg-funBlue-100 w-[50px] h-[50px]">
-          <AvatarImage src="" />
+          <AvatarImage src="" className="w-full h-full object-cover" />
           <AvatarFallback className="font-poppins font-normal text-funBlue-600 text-[20px]">
             +8
           </AvatarFallback>
