@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import CustomBuyButton from "../../Desktop/PredictionScore/CustomBuyButton";
+import CustomBuyButton from "../../CustomBuyButton";
 import AnimatedCounter from "@/components/Navbar/Desktop/Balance/AnimatedCounter";
 const PredictionScore = () => {
   const predictedAmount = 34;
@@ -32,7 +32,13 @@ const PredictionScore = () => {
             <p>%</p>
           </div>
         </div>
-        <CustomBuyButton buttonH="33px" buttonW="75px" />
+        <CustomBuyButton
+          buttonH="33px"
+          buttonW="75px"
+          imageSource="/icons/buyStockShoppingBag.svg"
+          imageText="Buy"
+          alt="Buy"
+        />
       </div>
     </div>
   );
