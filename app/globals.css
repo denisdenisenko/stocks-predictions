@@ -24,10 +24,13 @@
   -webkit-backdrop-filter: blur(4px);
 }
 
-.custom-scrollbar::-webkit-scrollbar {
+/* .custom-scrollbar::-webkit-scrollbar {
   width: 3px;
   height: 3px;
   border-radius: 2px;
+} */
+.custom-scrollbar::-webkit-scrollbar {
+  display: none;
 }
 
 .custom-scrollbar::-webkit-scrollbar-track {
@@ -369,7 +372,7 @@
   }
 
   .sidebar-logo {
-    @apply 2xl:text-26 font-poppins text-[26px] font-bold text-black-1 max-xl:hidden;
+    @apply 2xl:text-26 font-poppins text-[26px] font-bold  max-xl:hidden;
   }
 
   .sidebar-link {

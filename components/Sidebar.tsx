@@ -24,7 +24,9 @@ const Sidebar = () => {
             alt="Stockify logo"
             className="size-[40px] max-xl:size-14"
           />
-          <h1 className="sidebar-logo">Stockify</h1>
+          <h1 className="sidebar-logo text-funBlue-600">
+            <span className="text-purpleHeart-400">Stock</span>ify
+          </h1>
         </Link>
         {sidebarLinks.map((item) => {
           const isActive =
