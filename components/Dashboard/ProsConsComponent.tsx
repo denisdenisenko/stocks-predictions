@@ -2,13 +2,25 @@ import React from "react";
 import Icon from "../Common/Icon";
 import DataComponent from "./DataComponent";
 
-const ProsConsComponent = () => {
+interface ProsConsProps {
+  header: string;
+  tooltip: string;
+  backgroundColor: string;
+}
+
+const ProsConsComponent: React.FC<ProsConsProps> = ({
+  header,
+  tooltip,
+  backgroundColor,
+}) => {
   return (
-    <div className="w-[690px] h-[392px] border-[2px] rounded-[20px] bg-gray-50 border-gray-60 ">
+    <div
+      className={`w-[690px] h-[392px] border-[2px] rounded-[20px] border-gray-60 ${backgroundColor}`}
+    >
       <div className="flex flex-col p-7">
         <div className="flex flex-row justify-between">
           <p className="font-poppins font-semibold text-[24px] text-funBlue-950 ">
-            Pro's
+            {header}
           </p>
           <Icon
             divH="36px"
@@ -17,7 +29,7 @@ const ProsConsComponent = () => {
             height={20}
             width={20}
             source="/icons/3dots.svg"
-            tooltipText="This is a pro's"
+            tooltipText={tooltip}
           />
         </div>
       </div>

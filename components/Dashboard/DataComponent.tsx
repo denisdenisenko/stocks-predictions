@@ -19,7 +19,6 @@ const DataComponent = () => {
             <p className="font-poppins font-medium text-[20px] text-funBlue-950">
               Growth Potential
             </p>
-
             <p className="font-poppins font-normal text-[18px] text-gray-100">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
               incidunt? Perferendis temporibus neque ad, ipsum autem architecto

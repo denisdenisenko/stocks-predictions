@@ -62,6 +62,7 @@ const config = {
         },
         red: {
           50: "#F81010",
+          100: "#FF0000",
         },
         gray: {
           25: "#FCFCFD",
@@ -116,6 +117,10 @@ const config = {
           "linear-gradient(90deg, #01797A 0%, #489399 100%)",
         "prediction-gradient":
           "linear-gradient(rgba(255, 222, 222, 0.3) , rgba(254, 224, 224, 0.3))",
+        "cons-gradient":
+          "linear-gradient(to right, rgba(255, 0, 0, 0.1), rgba(253, 253, 255, 0.5))",
+        "pros-gradient":
+          "linear-gradient(to right,rgba(44, 0, 118, 0.1), rgba(253, 253, 255, 1))",
       },
       boxShadow: {
         form: "0px 1px 2px 0px rgba(16, 24, 40, 0.05)",
