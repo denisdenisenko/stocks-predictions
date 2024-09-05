@@ -6,10 +6,12 @@ import ModelAccuracy from "./ModelAccuracy/ModelAccuracy";
 const DesktopDashboard = () => {
   return (
     <div>
-      <div className="flex flex-row p-[0px_20px] ">
+      <div className="flex flex-row p-[0px_20px]  ">
         <PredictionScore />
-        <ModelAccuracy />
-        <Members />
+        <div className="flex flex-row items-center">
+          <ModelAccuracy />
+          <Members />
+        </div>
       </div>
     </div>
   );
