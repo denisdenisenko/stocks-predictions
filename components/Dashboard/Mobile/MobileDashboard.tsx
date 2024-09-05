@@ -8,12 +8,12 @@ const MobileDashboard = () => {
       <PredictionScore />
       <ProsConsComponent
         header={""}
-        tooltip={""}
+        tooltip={"This is pros"}
         backgroundColor={"bg-pros-gradient"}
       />
       <ProsConsComponent
         header={""}
-        tooltip={""}
+        tooltip={"This is cons"}
         backgroundColor={"bg-cons-gradient"}
       />
     </div>
