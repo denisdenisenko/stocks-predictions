@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import CustomBuyButton from "../../CustomBuyButton";
+import CustomBuyButton from "../../../Common/CustomButton";
 import AnimatedCounter from "@/components/Navbar/Desktop/Balance/AnimatedCounter";
 const PredictionScore = () => {
   const predictedAmount = 34;

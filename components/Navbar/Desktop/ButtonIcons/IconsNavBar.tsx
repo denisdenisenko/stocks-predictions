@@ -1,5 +1,5 @@
 import React from "react";
-import Icon from "./Icon";
+import Icon from "../../../Common/Icon";
 
 const IconsNavBar = () => {
   return (
@@ -12,6 +12,7 @@ const IconsNavBar = () => {
           alt="Light/Dark mode"
           divW="50px"
           divH="50px"
+          tooltipText="Dark/Light mode"
         />
       </div>
       <div>
@@ -22,6 +23,7 @@ const IconsNavBar = () => {
           alt="Notification"
           divW="50px"
           divH="50px"
+          tooltipText="Notifications"
         />
       </div>
     </div>

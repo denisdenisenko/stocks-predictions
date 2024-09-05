@@ -1,5 +1,5 @@
 import React from "react";
-import CustomBuyButton from "../../CustomBuyButton";
+import CustomBuyButton from "../../../Common/CustomButton";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const Members = () => {

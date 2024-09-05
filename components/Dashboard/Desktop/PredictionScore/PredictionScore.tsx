@@ -1,6 +1,6 @@
-import Icon from "@/components/Navbar/Desktop/ButtonIcons/Icon";
+import Icon from "@/components/Common/Icon";
 import React from "react";
-import CustomBuyButton from "../../CustomBuyButton";
+import CustomBuyButton from "../../../Common/CustomButton";
 import AnimatedCounter from "@/components/Navbar/Desktop/Balance/AnimatedCounter";
 
 const PredictionScore = () => {
@@ -21,6 +21,7 @@ const PredictionScore = () => {
             alt={"questionMark"}
             divW="35px"
             divH="35px"
+            tooltipText="This is prediction score of current stock. The higher the value the stronger is suggestion of buing the Stock "
           />
         </div>
         <p className="font-poppins font-normal text-[14px] text-textPredictionGray-100">

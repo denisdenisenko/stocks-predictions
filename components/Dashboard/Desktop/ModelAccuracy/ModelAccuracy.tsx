@@ -1,4 +1,4 @@
-import Icon from "@/components/Navbar/Desktop/ButtonIcons/Icon";
+import Icon from "@/components/Common/Icon";
 import React from "react";
 
 const ModelAccuracy = () => {
@@ -11,6 +11,7 @@ const ModelAccuracy = () => {
         alt="Question mark"
         divH="25px"
         divW="25px"
+        tooltipText="This is an information about model accuracy."
       />
       <p>Model Accuracy</p>
       <Icon
@@ -20,6 +21,7 @@ const ModelAccuracy = () => {
         alt="Model Accuracy"
         divH="36px"
         divW="36px"
+        tooltipText="This is the model accuracy. This value indicates the success rate of previous predictions over the preiod of time"
       />
     </div>
   );
