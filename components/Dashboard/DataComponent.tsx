@@ -5,7 +5,7 @@ const DataComponent = () => {
   return (
     <div>
       <div className="flex flex-row ">
-        <div className="p-[10px] flex-shrink-0">
+        <div className="p-[6px] sm:p-[10px] flex-shrink-0">
           <Image
             width={12}
             height={30}
