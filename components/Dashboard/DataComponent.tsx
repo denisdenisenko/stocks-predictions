@@ -4,7 +4,7 @@ import Image from "next/image";
 const DataComponent = () => {
   return (
     <div>
-      <div className="flex flex-row">
+      <div className="flex flex-row ">
         <div className="p-[10px] flex-shrink-0">
           <Image
             width={12}
@@ -16,10 +16,10 @@ const DataComponent = () => {
         </div>
         <div>
           <div>
-            <p className="font-poppins font-medium text-[20px] text-funBlue-950">
+            <p className="font-poppins font-medium text-[16px] sm:text-[20px] text-funBlue-950">
               Growth Potential
             </p>
-            <p className="font-poppins font-normal text-[18px] text-gray-100">
+            <p className="font-poppins font-normal text-[14px] sm:text-[18px] text-gray-100">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
               incidunt? Perferendis temporibus neque ad, ipsum autem architecto
               sequi iure quis facere labore tempora magnam voluptate error?
