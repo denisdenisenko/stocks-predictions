@@ -6,7 +6,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const UpperNavBarMobile = () => {
   return (
-    <div className="flex w-full flex-row gap-[16px] justify-evenly  items-center">
+    <div className="flex w-full h-[70px] flex-row gap-[16px] justify-evenly  items-center">
       <MobileSideBar />
       <SearchBarMobile />
       <Image

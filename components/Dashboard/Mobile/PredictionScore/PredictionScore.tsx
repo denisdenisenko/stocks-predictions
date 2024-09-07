@@ -5,7 +5,7 @@ import AnimatedCounter from "@/components/Navbar/Desktop/Balance/AnimatedCounter
 const PredictionScore = () => {
   const predictedAmount = 34;
   return (
-    <div className="sm:w-full m-[10px_10px_0px_10px] h-[150px] flex flex-col gap-[10px] bg-prediction-gradient border-lightPink-50 rounded-[10px] border border-solid p-[12px_16px] ">
+    <div className="sm:w-full  h-[150px] flex flex-col gap-[10px] bg-prediction-gradient border-lightPink-50 rounded-[10px] border border-solid p-[12px_16px] ">
       <div className="w-[296px] gap-4 h-[35px] flex flex-row items-center">
         <h2 className="font-poppins text-[18px] font-semibold text-funBlue-950 text-left">
           Prediction Score

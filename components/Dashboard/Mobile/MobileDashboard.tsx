@@ -4,7 +4,7 @@ import ProsConsComponent from "../ProsConsComponent";
 
 const MobileDashboard = () => {
   return (
-    <div className="sm:w-full m-[10px_10px_0px_10px] h-[150px] flex flex-col gap-[10px]">
+    <div className="sm:w-full m-[15px] flex flex-col gap-[10px]">
       <PredictionScore />
       <ProsConsComponent
         header={"Pro's"}
